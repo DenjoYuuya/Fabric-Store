@@ -1,0 +1,5 @@
+# Proxy all /api requests to your live Render backend
+/api/* https://fabric-store-sfzl.onrender.com/api/:splat 200
+
+# Optional: SPA fallback (not needed for simple HTML, but safe to include)
+/* /index.html 200
